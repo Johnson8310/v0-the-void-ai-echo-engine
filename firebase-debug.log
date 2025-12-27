@@ -30,7 +30,8 @@
 [info] 
 [info] 2. Visit the URL below on any device and follow the instructions to get your code:
 [info] 
-[info]    https://auth.firebase.tools/login?code_challenge=SVbbX1KXmBZ3b6tdNH6Q1qHfnpeiFV6g5BOri7PXtgY&session=5ac055d4-4f67-4a0d-9271-46188216bdba&attest=6WxJdyH6nfF7jXUJkLT7pI4tLuMP8dlGYkQbP22UVms
+[info]    [info]    https://auth.firebase.tools/login?code_challenge=SVbbX1KXmBZ3b6tdNH6Q1qHfnpeiFV6g5BOri7PXtgY&session=5ac055d4-4f67-4a0d-9271-46188216bdba&attest=6WxJdyH6nfF7jXUJkLT7pI4tLuMP8dlGYkQbP22UVms
+https://auth.firebase.tools/login?code_challenge=SVbbX1KXmBZ3b6tdNH6Q1qHfnpeiFV6g5BOri7PXtgY&session=5ac055d4-4f67-4a0d-9271-46188216bdba&attest=6WxJdyH6nfF7jXUJkLT7pI4tLuMP8dlGYkQbP22UVms
 [info] 
 [info] 3. Paste or enter the authorization code below once you have it:
 [info] 
@@ -76,6 +77,39 @@
 [info] 2. Visit the URL below on any device and follow the instructions to get your code:
 [info] 
 [info]    https://auth.firebase.tools/login?code_challenge=NDSKSXet8eMHh6ro6PS8OrivnL7rWkgKMIT3Vv0OCAo&session=f0ee2b51-f6f7-4eca-897c-d818810535a0&attest=Ith58B1imRYukfM-ZuY1K7hnoTxJgdXVWh1NZMCFc6k
+[info] 
+[info] 3. Paste or enter the authorization code below once you have it:
+[info] 
+[debug] [2025-12-27T18:54:25.042Z] ----------------------------------------------------------------------
+[debug] [2025-12-27T18:54:25.045Z] Command:       /nix/store/ws50yvm6vzlzf7jzz6n7xh4szddrack1-nodejs-20.19.1/bin/node /nix/store/c776mhyhgykcld7p90ajrka149ifn61a-firebase-tools-14.26.0/lib/node_modules/firebase-tools/lib/bin/firebase.js login --no-localhost
+[debug] [2025-12-27T18:54:25.046Z] CLI Version:   14.26.0
+[debug] [2025-12-27T18:54:25.046Z] Platform:      linux
+[debug] [2025-12-27T18:54:25.046Z] Node Version:  v20.19.1
+[debug] [2025-12-27T18:54:25.047Z] Time:          Sat Dec 27 2025 18:54:25 GMT+0000 (Coordinated Universal Time)
+[debug] [2025-12-27T18:54:25.047Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-12-27T18:54:25.054Z] No OAuth tokens found
+[debug] [2025-12-27T18:54:25.055Z] No OAuth tokens found
+[error] Failed to fetch Firebase Project from current Studio Workspace: Unable to refresh auth: not yet authenticated.
+[info] i  The Firebase CLI’s MCP server feature can optionally make use of Gemini in Firebase. Learn more about Gemini in Firebase and how it uses your data: https://firebase.google.com/docs/gemini-in-firebase#how-gemini-in-firebase-uses-your-data 
+[info] 
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you. 
+[info] 
+[info] i  To change your preferences at any time, run `firebase logout` and `firebase login` again. 
+[debug] [2025-12-27T18:54:34.952Z] >>> [apiv2][query] POST https://auth.firebase.tools/attest [none]
+[debug] [2025-12-27T18:54:34.953Z] >>> [apiv2][body] POST https://auth.firebase.tools/attest {"session_id":"526d3cd5-dd47-4065-971e-ca6a61d0867d"}
+[debug] [2025-12-27T18:54:35.221Z] <<< [apiv2][status] POST https://auth.firebase.tools/attest 200
+[debug] [2025-12-27T18:54:35.221Z] <<< [apiv2][body] POST https://auth.firebase.tools/attest {"token":"VPXbXUS3Lu5L8LZvkO1nNECzJybvHhoqTGrDiKGPXV0"}
+[info] 
+[info] To sign in to the Firebase CLI:
+[info] 
+[info] 1. Take note of your session ID:
+[info] 
+[info]    526D3
+[info] 
+[info] 2. Visit the URL below on any device and follow the instructions to get your code:
+[info] 
+[info]    https://auth.firebase.tools/login?code_challenge=bJzWIZxBpvJnJZGFcpV_bBvLx-tAGTzuVFf4Dxd174U&session=526d3cd5-dd47-4065-971e-ca6a61d0867d&attest=VPXbXUS3Lu5L8LZvkO1nNECzJybvHhoqTGrDiKGPXV0
 [info] 
 [info] 3. Paste or enter the authorization code below once you have it:
 [info] 
